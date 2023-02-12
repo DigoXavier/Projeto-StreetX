@@ -1,0 +1,136 @@
+.im-logo1{
+    background-image: url("../img/STREET_X_4.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 111px;
+    height: 39px;
+}
+
+body{
+    display:flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+    height: 100%;
+    background-color: #fff;
+}
+
+.cx-2{
+    padding-right: 1%;
+}
+
+.pq1{
+    display: inline-block;
+}
+
+.cx{
+    margin-top: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cx-1{
+    width: 40%;
+    padding-left: 1%;
+}
+
+.cxx {
+    margin-top: 3%;
+    margin-bottom: 4%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.ativo{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+.azul-linha{
+    height: 2px;
+    background-color: #004aad;
+}
+
+.intro{
+    text-decoration: none;
+    color: rgb(124, 124, 124);
+    font-weight: 400;
+}
+
+.img-1{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 4%;
+}
+
+#nv1{
+    background-color: #fafafa;
+    height: 64px;
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: #fafafa;
+}
+
+.txt-1{
+    width: 35%;
+}
+
+.pw1 {
+    text-align: justify;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.pq2 .col{
+    padding: 3%;
+}
+
+.txt-2{
+    width: 55%;
+    margin-bottom: 4%;
+}
+
+.pq2{
+    display: flex;
+}
+
+.mgg{
+    margin-top: 4%;
+}
+
+@media screen and (max-width: 768px)  {
+    .txt-1{
+        width: 90%;
+    }
+
+    .txt-2{
+        width: 90%;
+    }
+
+    .pq2{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.clr1{
+    color: #ffffff;
+}
+
+.clr2{
+    color: #000;
+}
+
